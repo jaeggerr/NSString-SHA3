@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7859993818FBC67C008424E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7859993718FBC67C008424E7 /* Foundation.framework */; };
+		7859993B18FBC67C008424E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7859993A18FBC67C008424E7 /* main.m */; };
+		78F64CC618FBC7EF00F6D8F0 /* NSString+SHA3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7859994918FBC6AC008424E7 /* NSString+SHA3.m */; };
+		78F64CC718FBC7F300F6D8F0 /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = 7859994618FBC6AC008424E7 /* keccak.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7859993218FBC67C008424E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7859993418FBC67C008424E7 /* SHA3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SHA3; sourceTree = BUILT_PRODUCTS_DIR; };
+		7859993718FBC67C008424E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7859993A18FBC67C008424E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7859993D18FBC67C008424E7 /* SHA3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHA3-Prefix.pch"; sourceTree = "<group>"; };
+		7859994618FBC6AC008424E7 /* keccak.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = keccak.c; sourceTree = "<group>"; };
+		7859994718FBC6AC008424E7 /* keccak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keccak.h; sourceTree = "<group>"; };
+		7859994818FBC6AC008424E7 /* NSString+SHA3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA3.h"; sourceTree = "<group>"; };
+		7859994918FBC6AC008424E7 /* NSString+SHA3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA3.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7859993118FBC67C008424E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7859993818FBC67C008424E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7859992B18FBC67C008424E7 = {
+			isa = PBXGroup;
+			children = (
+				7859993918FBC67C008424E7 /* SHA3 */,
+				7859993618FBC67C008424E7 /* Frameworks */,
+				7859993518FBC67C008424E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7859993518FBC67C008424E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7859993418FBC67C008424E7 /* SHA3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7859993618FBC67C008424E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7859993718FBC67C008424E7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7859993918FBC67C008424E7 /* SHA3 */ = {
+			isa = PBXGroup;
+			children = (
+				7859994518FBC6AC008424E7 /* SHA3 */,
+				7859993A18FBC67C008424E7 /* main.m */,
+				7859993C18FBC67C008424E7 /* Supporting Files */,
+			);
+			path = SHA3;
+			sourceTree = "<group>";
+		};
+		7859993C18FBC67C008424E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7859993D18FBC67C008424E7 /* SHA3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7859994518FBC6AC008424E7 /* SHA3 */ = {
+			isa = PBXGroup;
+			children = (
+				7859994618FBC6AC008424E7 /* keccak.c */,
+				7859994718FBC6AC008424E7 /* keccak.h */,
+				7859994818FBC6AC008424E7 /* NSString+SHA3.h */,
+				7859994918FBC6AC008424E7 /* NSString+SHA3.m */,
+			);
+			path = SHA3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7859993318FBC67C008424E7 /* SHA3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7859994218FBC67C008424E7 /* Build configuration list for PBXNativeTarget "SHA3" */;
+			buildPhases = (
+				7859993018FBC67C008424E7 /* Sources */,
+				7859993118FBC67C008424E7 /* Frameworks */,
+				7859993218FBC67C008424E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHA3;
+			productName = SHA3;
+			productReference = 7859993418FBC67C008424E7 /* SHA3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7859992C18FBC67C008424E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 7859992F18FBC67C008424E7 /* Build configuration list for PBXProject "SHA3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7859992B18FBC67C008424E7;
+			productRefGroup = 7859993518FBC67C008424E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7859993318FBC67C008424E7 /* SHA3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7859993018FBC67C008424E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F64CC618FBC7EF00F6D8F0 /* NSString+SHA3.m in Sources */,
+				78F64CC718FBC7F300F6D8F0 /* keccak.c in Sources */,
+				7859993B18FBC67C008424E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7859994018FBC67C008424E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7859994118FBC67C008424E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7859994318FBC67C008424E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHA3/SHA3-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7859994418FBC67C008424E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHA3/SHA3-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7859992F18FBC67C008424E7 /* Build configuration list for PBXProject "SHA3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7859994018FBC67C008424E7 /* Debug */,
+				7859994118FBC67C008424E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7859994218FBC67C008424E7 /* Build configuration list for PBXNativeTarget "SHA3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7859994318FBC67C008424E7 /* Debug */,
+				7859994418FBC67C008424E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7859992C18FBC67C008424E7 /* Project object */;
+}
