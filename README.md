@@ -17,7 +17,7 @@ Just call the sha3: method on your string and give the bit lenght as parameter.
 
 ```objective-c
 //Will return 1c8aff950685c2ed4bc3174f3472287b56d9517b9c948127319a09a7a36deac8
-NSString *hash = [@"hello" sha3:512];
+NSString *hash = [@"hello" sha3:256];
 
 ```
 
